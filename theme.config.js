@@ -1,12 +1,9 @@
 import { useRouter } from "next/router";
 import { useConfig } from "nextra-theme-docs";
-import Logo from "./components/logo";
-import Vercel from "./components/vercel";
 import useLocalesMap from "./components/use-locales-map";
 import {
   editTextMap,
   feedbackLinkMap,
-  footerTextMap,
   gitTimestampMap,
   headDescriptionMap,
   languageMap,
@@ -26,6 +23,15 @@ const themeConfig = {
       titleTemplate: "%s – GSS",
     };
   },
+  primaryHue: 156,
+  // banner: {
+  //   key: '1.0-release',
+  //   text: (
+  //     <a href="https://gss.site" target="_blank">
+  //       🎉 Ganit Swayam Shikshak is released. Read more →
+  //     </a>
+  //   )
+  // },
   toc: {
     float: true,
     title: () => useLocalesMap(tableOfContentsTitleMap),
@@ -44,10 +50,10 @@ const themeConfig = {
     return (
       <>
         <span
-          className="mx-2 font-extrabold text-2xl hidden md:inline select-none"
+          className="mx-2 antialiased tracking-tight uppercase font-mono select-none flex text-xl md:text-2xl font-black bg-gradient-to-tl bg-clip-text text-transparent from-indigo-500 via-purple-500 to-pink-500"
           title={`GSS: ${title}`}
         >
-          GSS Guide
+          Ganitam
         </span>
       </>
     );
@@ -90,9 +96,9 @@ const themeConfig = {
     text: () => {
       return (
         <span
-          className="mx-4 font-extrabold hidden md:inline select-none"
+          className="mx-4 antialiased uppercase select-none flex text-xl font-mono font-semibold bg-gradient-to-tl bg-clip-text text-transparent to-indigo-500 via-purple-500 from-pink-500"
         >
-          Ganit Swayam Shikshak. © Maverick Mandir.
+          MIT {new Date().getFullYear()} © Ganit Swayam Shikshak, Maverick Mandir.
         </span>
       );
     },
