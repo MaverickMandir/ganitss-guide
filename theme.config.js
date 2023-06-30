@@ -48,7 +48,7 @@ const themeConfig = {
     content: () => useLocalesMap(feedbackLinkMap),
   },
   logo: () => {
-    return (<Title/>);
+    return <Title/>;
   },
   head: () => {
     const { route, locales, locale } = useRouter();
@@ -79,7 +79,7 @@ const themeConfig = {
   },
   footer: {
     text: () => {
-      return (<Footer/>);
+      return <Footer/>;
     },
   },
   gitTimestamp({ timestamp }) {
