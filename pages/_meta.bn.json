@@ -4,13 +4,13 @@
         "type": "separator",
         "title": "Modules"
       },
-    "number-system"   : "1. Number System",
-    "notations"       : "2. Useful Notations",
-    "factor-multiple" : "3. Factors & Multiples",
-    "concepts"        : "4. Core Concepts",
-    "series-dataset"  : "5. Series & Dataset",
-    "measurement"     : "6. Measurements",
-    "kinematics"      : "7. Kinematics",
-    "finance"         : "8. Finance",
-    "misc"            : "9. Miscellaneous"
+    "number-system"   : "1. সংখ্যা",
+    "notations"       : "2. দরকারী নোটেশন",
+    "factor-multiple" : "3. গুণনীয়ক ও গুণিতক",
+    "concepts"        : "4. গুরুত্বপূর্ণ ধারণা",
+    "series-dataset"  : "5. সিরিজ এবং ডেটাসেট",
+    "measurement"     : "6. একক ও পরিমাপ",
+    "kinematics"      : "7. গতিবিজ্ঞান",
+    "finance"         : "8. ফাইন্যান্স",
+    "misc"            : "9. বিবিধ"
 }
