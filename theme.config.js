@@ -11,6 +11,8 @@ import {
   tableOfContentsTitleMap,
   titleMap,
 } from "./translations/text";
+import Title from "components/title";
+import Footer from "components/footer";
 
 /** @type {import('nextra-theme-docs').DocsThemeConfig} */
 const themeConfig = {
@@ -46,31 +48,14 @@ const themeConfig = {
     content: () => useLocalesMap(feedbackLinkMap),
   },
   logo: () => {
-    const title = useLocalesMap(titleMap);
-    return (
-      <>
-        <span
-          className="mx-2 antialiased tracking-tight uppercase font-mono select-none flex text-xl md:text-2xl font-black bg-gradient-to-tl bg-clip-text text-transparent from-indigo-500 via-purple-500 to-pink-500"
-          title={`GSS: ${title}`}
-        >
-          Ganitam
-        </span>
-      </>
-    );
+    return (<Title/>);
   },
   head: () => {
     const { route, locales, locale } = useRouter();
     const { frontMatter, title } = useConfig();
     const titleSuffix = useLocalesMap(titleMap);
     const description = useLocalesMap(headDescriptionMap);
-
-    const imageUrl = new URL("https://swr-card.vercel.app");
-
-    if (!/\/index\.+/.test(route)) {
-      imageUrl.searchParams.set("title", title || titleSuffix);
-    }
-
-    const ogTitle = title ? `${title} – Starter` : `Starter: ${titleSuffix}`;
+    const ogTitle = title ? `${title} – GSS` : `GSS: ${titleSuffix}`;
     const ogDescription = frontMatter.description || description;
 
     return (
@@ -94,13 +79,7 @@ const themeConfig = {
   },
   footer: {
     text: () => {
-      return (
-        <span
-          className="mx-4 antialiased uppercase select-none flex text-xl font-mono font-semibold bg-gradient-to-tl bg-clip-text text-transparent to-indigo-500 via-purple-500 from-pink-500"
-        >
-          MIT {new Date().getFullYear()} © Ganit Swayam Shikshak, Maverick Mandir.
-        </span>
-      );
+      return (<Footer/>);
     },
   },
   gitTimestamp({ timestamp }) {
