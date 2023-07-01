@@ -2,10 +2,9 @@ export default function Logo() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="30"
-      height="30"
       fill="none"
       viewBox="0 0 48 48"
+      className="w-10 h-10 lg:w-11 lg:h-11 pl-2"
     >
       <path d="M0 0H48V48H0z"></path>
       <circle cx="24" cy="24" r="24" fill="#000"></circle>

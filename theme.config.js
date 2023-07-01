@@ -62,8 +62,8 @@ const themeConfig = {
       <>
         <link
           rel="icon"
-          type="image/png"
-          href="/logo.png"
+          type="image/svg"
+          href="/logo.svg"
         />
         <meta name="description" content={ogDescription} />
         <meta property="og:title" content={ogTitle} />
