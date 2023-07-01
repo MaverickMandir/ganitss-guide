@@ -4,6 +4,10 @@
         "slug":"number-system",
         "units": [
             {
+                "unit": "Decimal Number System",
+                "key":"decimal"
+            },
+            {
                 "unit":"Basic Counting Number",
                 "key": "basic-counting-number"
             },
@@ -30,10 +34,6 @@
             {
                 "unit": "Values",
                 "key": "value"
-            },
-            {
-                "unit": "Decimal Number System",
-                "key":"decimal"
             },
             {
                 "unit": "Binary Number System",

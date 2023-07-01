@@ -1,0 +1,277 @@
+[
+    {
+        "name": "সংখ্যা",
+        "slug":"number-system",
+        "units": [
+            {
+                "unit": "দশমিক সংখ্যা",
+                "key":"decimal"
+            },
+            {
+                "unit":"সংখ্যা গণনা",
+                "key": "basic-counting-number"
+            },
+            {
+                "unit": "বর্গ ও ঘন সংখ্যা",
+                "key": "square-cube-number"
+            },
+            {
+                "unit":"পূর্ণ সংখ্যা",
+                "key":"integers"
+            },
+            {
+                "unit": "সংখ্যা গঠন",
+                "key": "number-construction"
+            },
+            {
+                "unit": "মূলদ এবং অমূলদ সংখ্যা",
+                "key": "rational-irrational-number"
+            },
+            {
+                "unit": "ভগ্নাংশ এবং পারস্পরিক",
+                "key": "fraction"
+            },
+            {
+                "unit": "মান",
+                "key": "value"
+            },
+            {
+                "unit": "বাইনারি সংখ্যা",
+                "key": "binary"
+            },
+            {
+                "unit": "হেক্সাডেসিমেল সংখ্যা",
+                "key": "hexadecimal"
+            }
+        ]
+    },
+    {
+        "name": "দরকারী নোটেশন",
+        "slug":"notations",
+        "units": [
+            {
+                "unit": "ভিনকুলাম নোটেশন",
+                "key": "vinculum"
+            },
+            {
+                "unit": "সংকলন স্বরলিপি",
+                "key": "sum"
+            },
+            {
+                "unit": "ফ্যাক্টরিয়াল নোটেশন",
+                "key": "factorial"
+            },
+            {
+                "unit": "সূচকীয় নোটেশন",
+                "key": "exponents"
+            },
+            {
+                "unit": "লগারিদমিক নোটেশন",
+                "key": "log"
+            },
+            {
+                "unit": "ধ্রুবক নোটেশন",
+                "key": "constant"
+            }
+        ]
+
+    },
+    {
+        "name": "গুণনীয়ক ও গুণিতক",
+        "slug":"factor-multiple",
+        "units": [
+            {
+                "unit": "টেবিল ও গুণনীয়ক",
+                "key": "table"
+            },
+            {
+                "unit": "ফ্যাক্টরাইজেশন",
+                "key": "factor"
+            },
+            {
+                "unit": "বর্গ এবং ঘন মূল",
+                "key": "root"
+            },
+            {
+                "unit": "লঘিষ্ঠ সাধারণ  গুণনীয়ক",
+                "key": "lcm"
+            },
+            {
+                "unit": "গরিষ্ঠ সাধারণ গুণিতক",
+                "key": "hcf"
+            }
+        ]
+    },
+    {
+        "name": "গুরুত্বপূর্ণ ধারণা",
+        "slug":"concepts",
+        "units": [
+            {
+                "unit": "ঐকিক নিয়ম",
+                "key": "unitary-method"
+            },
+            {
+                "unit": "অংশ",
+                "key": "part"                                       
+            },
+            {
+                "unit": "অনুপাত",
+                "key": "ratio" 
+            },
+            {
+                "unit": "সমানুপাত",
+                "key": "proportion" 
+            },
+            {
+                "unit": "শতকরা",
+                "key": "percent" 
+            },
+            {
+                "unit": "সরলীকরণ",
+                "key": "simplify"
+            },
+            {
+                "unit": "সমাধান",
+                "key": "solve"
+            }
+        ]
+    },
+    {
+        "name":"সিরিজ এবং ডেটাসেট",
+        "slug":"series-dataset",
+        "units": [
+            {
+                "unit": "ধারাবাহিক",
+                "key": "series"
+            },
+            {
+                "unit": "গড়",
+                "key": "mean"
+            },
+            {
+                "unit": "মধ্যমা",
+                "key": "median"
+            },
+            {
+                "unit": "মোড",
+                "key": "mode"
+            },
+            {
+                "unit": "রেঞ্জ",
+                "key": "range"
+            }
+        ]
+    },
+    {   
+        "name":"একক ও পরিমাপ",
+        "slug":"measurement",
+        "units":[
+            {
+                "unit": "একক",
+                "key": "units"
+            },
+            {
+                "unit": "পরিমান",
+                "key": "quantity"
+            },
+            {
+                "unit": "মাত্রা",
+                "key": "dimensions"
+            },
+            {
+                "unit": "দৈর্ঘ্য",
+                "key": "length"
+            },
+            {
+                "unit": "লেখচিত্র",
+                "key": "graph"
+            },
+            {
+                "unit": "জ্যামিতি",
+                "key": "geometry"
+            },
+            {
+                "unit": "পরিধি",
+                "key": "perimeter"
+            },
+            {
+                "unit": "ক্ষেত্রফল",
+                "key": "area"
+            },
+            {
+                "unit": "ঘনফল",
+                "key": "volume"
+            }
+        ]
+    },
+    {
+        "name":"গতিবিজ্ঞান",
+        "slug":"kinematics",
+        "units":[
+            {
+                "unit": "দূরত্ব",
+                "key": "distance"
+            },
+            {
+                "unit": "গতিবেগ",
+                "key": "speed"
+            },
+            {
+                "unit": "ত্বরণ",
+                "key": "acceleration"
+            },
+            {
+                "unit":"সময়",
+                "key":"time"
+            }
+        ]
+    },
+    {
+        "name":"ফাইন্যান্স",
+        "slug":"finance",
+        "units": [
+            {
+                "unit": "সরল সুদ",
+                "key": "simple-interest"
+            },
+            {
+                "unit": "নেট ওয়ার্থ",
+                "key": "net-worth"
+            },
+            {
+                "unit": "চক্রবৃদ্ধি সুদ",
+                "key": "compound-interest"
+            },
+            {
+                "unit": "লাভ ও ক্ষতি",
+                "key": "profit-loss"
+            },
+            {
+                "unit": "আয় ও ব্যয়",
+                "key": "income-expanse"
+            },
+            {
+                "unit": "সঞ্চয় এবং বিনিয়োগ",
+                "key": "saving-investing"
+            }
+        ]
+    },
+    {
+        "name":"বিবিধ",
+        "slug":"misc",
+        "units":[
+            {
+                "unit": "সময়",
+                "key": "time"
+            },
+            {
+                "unit": "শ্রমিক",
+                "key": "labour"
+            },
+            {
+                "unit": "নল ও কল",
+                "key": "pipe-tube"
+            }
+        ]
+    }
+]

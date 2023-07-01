@@ -1,3 +1,60 @@
+import { Callout } from 'nextra/components'
+
 # Hexadecimal Number System
 
-The Number system uses 16 bases( 0,1,2,3,4,5,6,7,8,9,a,b,c,d,f) and commonly used in programming.
+The Number system uses 16 bases and commonly used in programming.
+
+| Hexadecimal Digit | Equivalent Decimal Values |
+|:--:|:--:|
+| 0 | 0 |
+| 1 | 1 |
+| 2 | 2 |
+| 3 | 3 |
+| 4 | 4 |
+| 5 | 5 |
+| 6 | 6 |
+| 7 | 7 |
+| 8 | 8 |
+| 9 | 9 |
+| a / A| 10 |
+| b / B | 11 |
+| c / C | 12 |
+| d / D | 13 |
+| e / E | 14 |
+| f / F | 15 |
+
+<Callout type="info" >
+  **Hexadecimal Number** uses $16^x$ as base value instead of $10^x$ like we use in decimal number. 
+</Callout>
+
+## Hexadecimal to Decimal Conversion
+
+Your grandfather gifted you a remote control car & your mother gave you a challenge to figure out, how much it costs ?
+Otherwise you can't play with that car. Your mother gave you this hint: Price amount is "3E8" in Hexadecimal. 
+How much rupees did it cost?
+
+> As we know the value of the car is "3E8" in Hexadecimal (Ox3E8), we have to convert it in decimal.
+
+> Let's evaluate the absolute values: <br/>
+> Absolute value of Ox8 in Ox3E8 is 8 <br/>
+> Absolute value of OxE in Ox3E8 is 14 <br/>
+> Absolute value of Ox3 in Ox3E8 is 3
+
+> Let's evaluate the base values: <br/>
+> Base value of Ox8 in Ox3E8 is $16^0$ = 1 <br/>
+> Base value of OxE in Ox3E8 is $16^1$ = 16 <br/>
+> Base value of Ox3 in Ox3E8 is $16^2$ = {16*16}
+
+> Let's evaluate the place values, now: <br/>
+> Place value of Ox8 in Ox3E8 is $ 8 \times 1 $ = 8 <br/>
+> Place value of OxE in Ox3E8 is $ 14 \times 16 $ = {14*16} <br/>
+> Place value of Ox3 in Ox3E8 is $ 3 \times 256 $ = {3*256}
+
+> So, the decimal value of Ox3E8 is 768 + 224 + 8 = {768 + 224 + 8}
+
+> Now surprise your mother by shouting "1000 Rupees". Then, snatch the car & play with it!
+
+## Decimal to Hexadecimal Conversion
+In programming, while developing some user interface, you may need to define the color of an element.
+For that purpose Hexadecimal numbers (Color Codes) are used instead of decimal number.
+For example 

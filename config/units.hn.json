@@ -1,0 +1,277 @@
+[
+    {
+        "name": "संख्या",
+        "slug":"number-system",
+        "units": [
+            {
+                "unit": "दशमलव संख्या",
+                "key":"decimal"
+            },
+            {
+                "unit":"संख्याओं की गिनती",
+                "key": "basic-counting-number"
+            },
+            {
+                "unit": "वर्ग और घन संख्या",
+                "key": "square-cube-number"
+            },
+            {
+                "unit":"पूर्णांक",
+                "key":"integers"
+            },
+            {
+                "unit": "संख्या गठन",
+                "key": "number-construction"
+            },
+            {
+                "unit": "परिमेय और अपरिमेय संख्याएँ",
+                "key": "rational-irrational-number"
+            },
+            {
+                "unit": "भिन्न और व्युत्क्रम",
+                "key": "fraction"
+            },
+            {
+                "unit": "मान",
+                "key": "value"
+            },
+            {
+                "unit": "बाइनरी संख्या",
+                "key": "binary"
+            },
+            {
+                "unit": "हेक्साडेसिमल संख्या",
+                "key": "hexadecimal"
+            }
+        ]
+    },
+    {
+        "name": "उपयोगी नोटेशन",
+        "slug":"notations",
+        "units": [
+            {
+                "unit": "विनकुलम नोटेशन",
+                "key": "vinculum"
+            },
+            {
+                "unit": "योग संकेतन",
+                "key": "sum"
+            },
+            {
+                "unit": "गुणनखंड संकेतन",
+                "key": "factorial"
+            },
+            {
+                "unit": "सँबोध वाचक चिन्ह",
+                "key": "exponents"
+            },
+            {
+                "unit": "लघुगणक संकेतन",
+                "key": "log"
+            },
+            {
+                "unit": "लगातार संकेतन",
+                "key": "constant"
+            }
+        ]
+
+    },
+    {
+        "name": "गुणनखंड और गुणज",
+        "slug":"factor-multiple",
+        "units": [
+            {
+                "unit": "टेबल्स और कारक",
+                "key": "table"
+            },
+            {
+                "unit": "गुणनखंडीकरण",
+                "key": "factor"
+            },
+            {
+                "unit": "वर्ग और घन मूल",
+                "key": "root"
+            },
+            {
+                "unit": "न्यूनतम सामान्य कारक",
+                "key": "lcm"
+            },
+            {
+                "unit": "महत्तम समापवर्त्य",
+                "key": "hcf"
+            }
+        ]
+    },
+    {
+        "name": "महत्वपूर्ण अवधारणाएँ",
+        "slug":"concepts",
+        "units": [
+            {
+                "unit": "एकात्मक पद्धति",
+                "key": "unitary-method"
+            },
+            {
+                "unit": "भाग",
+                "key": "part"                                       
+            },
+            {
+                "unit": "अनुपात",
+                "key": "ratio" 
+            },
+            {
+                "unit": "तुलना",
+                "key": "proportion" 
+            },
+            {
+                "unit": "फ़ीसदी",
+                "key": "percent" 
+            },
+            {
+                "unit": "सरलीकरण",
+                "key": "simplify"
+            },
+            {
+                "unit": "हल करो",
+                "key": "solve"
+            }
+        ]
+    },
+    {
+        "name":"सीरीज और डेटासेट",
+        "slug":"series-dataset",
+        "units": [
+            {
+                "unit": "शृंखला",
+                "key": "series"
+            },
+            {
+                "unit": "औसत",
+                "key": "mean"
+            },
+            {
+                "unit": "मंझला",
+                "key": "median"
+            },
+            {
+                "unit": "मोड",
+                "key": "mode"
+            },
+            {
+                "unit": "रेंज",
+                "key": "range"
+            }
+        ]
+    },
+    {
+        "name":"इकाइयां और माप",
+        "slug":"measurement",
+        "units":[
+            {
+                "unit": "एकल",
+                "key": "units"
+            },
+            {
+                "unit": "मात्रा",
+                "key": "quantity"
+            },
+            {
+                "unit": "आयाम",
+                "key": "dimensions"
+            },
+            {
+                "unit": "लम्बाई",
+                "key": "length"
+            },
+            {
+                "unit": "चित्रकला",
+                "key": "graph"
+            },
+            {
+                "unit": "ज्यामिति",
+                "key": "geometry"
+            },
+            {
+                "unit": "परिधि",
+                "key": "perimeter"
+            },
+            {
+                "unit": "क्षेत्रफल",
+                "key": "area"
+            },
+            {
+                "unit": "घनक्षेत्र",
+                "key": "volume"
+            }
+        ]
+    },
+    {
+        "name":"गतिकी",
+        "slug":"kinematics",
+        "units":[
+            {
+                "unit": "दुरी",
+                "key": "distance"
+            },
+            {
+                "unit": "रफ़्तार",
+                "key": "speed"
+            },
+            {
+                "unit": "त्वरण",
+                "key": "acceleration"
+            },
+            {
+                "unit":"समय",
+                "key":"time"
+            }
+        ]
+    },
+    {
+        "name":"फाइनेंस",
+        "slug":"finance",
+        "units": [
+            {
+                "unit": "सरल ब्याज",
+                "key": "simple-interest"
+            },
+            {
+                "unit": "नेट वर्थ",
+                "key": "net-worth"
+            },
+            {
+                "unit": "चक्रवृद्धि ब्याज",
+                "key": "compound-interest"
+            },
+            {
+                "unit": "लाभ और हानि",
+                "key": "profit-loss"
+            },
+            {
+                "unit": "आय एवं व्यय",
+                "key": "income-expanse"
+            },
+            {
+                "unit": "बचत और निवेश",
+                "key": "saving-investing"
+            }
+        ]
+    },
+    {
+        "name":"मिश्रित",
+        "slug":"misc",
+        "units":[
+            {
+                "unit": "समय",
+                "key": "time"
+            },
+            {
+                "unit": "श्रमिक",
+                "key": "labour"
+            },
+            {
+                "unit": "नल और ट्यूब",
+                "key": "pipe-tube"
+            }
+        ]
+    }
+]
