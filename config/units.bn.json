@@ -4,6 +4,10 @@
         "slug":"number-system",
         "units": [
             {
+                "unit": "দশমিক সংখ্যা",
+                "key":"decimal"
+            },
+            {
                 "unit":"সংখ্যা গণনা",
                 "key": "basic-counting-number"
             },
@@ -30,10 +34,6 @@
             {
                 "unit": "মান",
                 "key": "value"
-            },
-            {
-                "unit": "দশমিক সংখ্যা",
-                "key":"decimal"
             },
             {
                 "unit": "বাইনারি সংখ্যা",

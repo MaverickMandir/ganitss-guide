@@ -4,6 +4,10 @@
         "slug":"number-system",
         "units": [
             {
+                "unit": "दशमलव संख्या",
+                "key":"decimal"
+            },
+            {
                 "unit":"संख्याओं की गिनती",
                 "key": "basic-counting-number"
             },
@@ -30,10 +34,6 @@
             {
                 "unit": "मान",
                 "key": "value"
-            },
-            {
-                "unit": "दशमलव संख्या",
-                "key":"decimal"
             },
             {
                 "unit": "बाइनरी संख्या",
